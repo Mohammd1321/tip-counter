@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="tip">
+    <h3>tip calculator</h3>
+    <div class="wrapper">
+      <div class="cashAmount">
+        <h5>how much is your bill?</h5>
+        <label for="cash">cash</label>
+        <input type="number" name="" id="cash">
+      </div>
+      <div class="rating">
+        <h5>how was your service ?</h5>
+        <label for="rate">rate</label>
+      <select name="" id="tipAmount">
+        <option value="" disabled>--choose an option--</option>
+        <option value=".30" selected>30% soo good</option>
+        <option value=".15">15% its alright</option>
+        <option value=".10">10% can be better</option>
+        <option value=".05">5% taste bad</option>
+        <option value="0">0% horrible</option>
+      </select>
+      </div>
+      <div class="share">
+        <h5>how many people are sharing this bill ?</h5>
+        <label for="sharing">people</label>
+        <input type="number" name="" id="sharing">
+      </div>
+      <button class="calculate">calculate</button>
+      <p>tip amount</p>
+      <span class="totalAmount"></span>
+    </div>
+  </div>
+<script src="tip.js"></script>
+</body>
+</html>
